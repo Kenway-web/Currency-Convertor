@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		183A9D482B3735D000C43430 /* Currency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183A9D472B3735D000C43430 /* Currency.swift */; };
 		18B35BFC2B29A1C90077CAB6 /* SelectCurrency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B35BFB2B29A1C90077CAB6 /* SelectCurrency.swift */; };
 		18B35BFE2B29B10F0077CAB6 /* CurrencyIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B35BFD2B29B10F0077CAB6 /* CurrencyIcon.swift */; };
 		18BD7AAB2B15032D00A93EEE /* CurrencyConvertorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BD7AAA2B15032D00A93EEE /* CurrencyConvertorApp.swift */; };
@@ -38,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		183A9D472B3735D000C43430 /* Currency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Currency.swift; sourceTree = "<group>"; };
 		18B35BFB2B29A1C90077CAB6 /* SelectCurrency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectCurrency.swift; sourceTree = "<group>"; };
 		18B35BFD2B29B10F0077CAB6 /* CurrencyIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyIcon.swift; sourceTree = "<group>"; };
 		18BD7AA72B15032D00A93EEE /* CurrencyConvertor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CurrencyConvertor.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -103,6 +105,7 @@
 			isa = PBXGroup;
 			children = (
 				18BD7AAA2B15032D00A93EEE /* CurrencyConvertorApp.swift */,
+				183A9D472B3735D000C43430 /* Currency.swift */,
 				18BD7AAC2B15032D00A93EEE /* ContentView.swift */,
 				18B35BFB2B29A1C90077CAB6 /* SelectCurrency.swift */,
 				18B35BFD2B29B10F0077CAB6 /* CurrencyIcon.swift */,
@@ -274,6 +277,7 @@
 				18DE2EC52B1CA318002265F8 /* ExchangeInfo.swift in Sources */,
 				18BD7AAD2B15032D00A93EEE /* ContentView.swift in Sources */,
 				18BD7AAB2B15032D00A93EEE /* CurrencyConvertorApp.swift in Sources */,
+				183A9D482B3735D000C43430 /* Currency.swift in Sources */,
 				18B35BFE2B29B10F0077CAB6 /* CurrencyIcon.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
