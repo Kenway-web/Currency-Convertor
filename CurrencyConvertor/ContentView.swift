@@ -12,8 +12,16 @@ struct ContentView: View {
     
    @State var showExchangeInfo = false
    @State var showSelectCurrency=false
+    
+    
    @State var leftAmount = ""
    @State var rightAmount = ""
+    
+   // special type of property
+   @FocusState var leftTyping
+   @FocusState var rightTyping
+    
+    
    @State var leftCurrency : Currency = .silverPiece
    @State var rightCurrency : Currency = .goldPiece
     
@@ -65,6 +73,13 @@ struct ContentView: View {
                         //TextField
                         TextField("Amount",text: $leftAmount)
                             .textFieldStyle(.roundedBorder)
+                            .focused($leftTyping)
+                            .onChange(of: leftAmount){
+                                if leftTyping {
+                                    rightAmount = leftCurrency.convert(leftAmount, to: rightCurrency)
+                                }
+                            }
+                        
                     }
                     
                     //Equal Sign
@@ -99,6 +114,12 @@ struct ContentView: View {
                         //TextField
                         TextField("Amount" ,text:$rightAmount)
                             .textFieldStyle(.roundedBorder)
+                            .focused($rightTyping)
+                            .onChange(of: rightAmount)
+                              {   if rightTyping {
+                                        leftAmount=rightCurrency.convert(rightAmount, to: leftCurrency)
+                                       }
+                              }
                     }
                 }
                 .padding()
