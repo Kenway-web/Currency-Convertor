@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		183A9D482B3735D000C43430 /* Currency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183A9D472B3735D000C43430 /* Currency.swift */; };
 		184EDBB82B4066230041AF8D /* IconGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184EDBB72B4066230041AF8D /* IconGrid.swift */; };
+		18782F962B499A00000EC432 /* CurrencyTip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18782F952B499A00000EC432 /* CurrencyTip.swift */; };
 		18B35BFC2B29A1C90077CAB6 /* SelectCurrency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B35BFB2B29A1C90077CAB6 /* SelectCurrency.swift */; };
 		18B35BFE2B29B10F0077CAB6 /* CurrencyIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B35BFD2B29B10F0077CAB6 /* CurrencyIcon.swift */; };
 		18BD7AAB2B15032D00A93EEE /* CurrencyConvertorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BD7AAA2B15032D00A93EEE /* CurrencyConvertorApp.swift */; };
@@ -42,6 +43,7 @@
 /* Begin PBXFileReference section */
 		183A9D472B3735D000C43430 /* Currency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Currency.swift; sourceTree = "<group>"; };
 		184EDBB72B4066230041AF8D /* IconGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconGrid.swift; sourceTree = "<group>"; };
+		18782F952B499A00000EC432 /* CurrencyTip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyTip.swift; sourceTree = "<group>"; };
 		18B35BFB2B29A1C90077CAB6 /* SelectCurrency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectCurrency.swift; sourceTree = "<group>"; };
 		18B35BFD2B29B10F0077CAB6 /* CurrencyIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyIcon.swift; sourceTree = "<group>"; };
 		18BD7AA72B15032D00A93EEE /* CurrencyConvertor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CurrencyConvertor.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -114,6 +116,7 @@
 				18B35BFD2B29B10F0077CAB6 /* CurrencyIcon.swift */,
 				18DE2EC42B1CA318002265F8 /* ExchangeInfo.swift */,
 				18DE2EC62B1CC43B002265F8 /* ExchangeRate.swift */,
+				18782F952B499A00000EC432 /* CurrencyTip.swift */,
 				18BD7AAE2B15032F00A93EEE /* Assets.xcassets */,
 				18BD7AB02B15032F00A93EEE /* Preview Content */,
 			);
@@ -280,6 +283,7 @@
 				18B35BFC2B29A1C90077CAB6 /* SelectCurrency.swift in Sources */,
 				18DE2EC52B1CA318002265F8 /* ExchangeInfo.swift in Sources */,
 				18BD7AAD2B15032D00A93EEE /* ContentView.swift in Sources */,
+				18782F962B499A00000EC432 /* CurrencyTip.swift in Sources */,
 				18BD7AAB2B15032D00A93EEE /* CurrencyConvertorApp.swift in Sources */,
 				183A9D482B3735D000C43430 /* Currency.swift in Sources */,
 				18B35BFE2B29B10F0077CAB6 /* CurrencyIcon.swift in Sources */,
