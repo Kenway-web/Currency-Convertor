@@ -18,4 +18,13 @@ This Currency Converter app is designed to facilitate easy conversion between va
 - Enter the amount you want to convert.
 - The app will display the converted amount based on real-time exchange rates.
 
+## Screenshots
+
+Here are some screenshots from the app:
+
+1. ![Image 1](https://github.com/Kenway-web/Currency-Convertor/blob/main/CurrencyConvertor/Assets.xcassets/Screenshot%202024-01-07%20at%2012.07.36%20AM.imageset/Screenshot%202024-01-07%20at%2012.07.36%20AM.png)
+2. ![Image 2](https://github.com/Kenway-web/Currency-Convertor/blob/main/CurrencyConvertor/Assets.xcassets/Screenshot%202024-01-07%20at%2012.07.44%20AM%201.imageset/Screenshot%202024-01-07%20at%2012.07.44%20AM.png)
+3. ![Image3](https://github.com/Kenway-web/Currency-Convertor/blob/main/CurrencyConvertor/Assets.xcassets/Screenshot%202024-01-07%20at%2012.07.51%20AM.imageset/Screenshot%202024-01-07%20at%2012.07.51%20AM.png)
+4. ![Image4](https://github.com/Kenway-web/Currency-Convertor/blob/main/CurrencyConvertor/Assets.xcassets/Screenshot%202024-01-07%20at%2012.07.58%20AM.imageset/Screenshot%202024-01-07%20at%2012.07.58%20AM.png)
+
 
