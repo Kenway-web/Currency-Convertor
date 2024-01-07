@@ -9,27 +9,31 @@ import SwiftUI
 import TipKit
 
 struct ContentView: View {
-    
+
     
    @State var showExchangeInfo = false
    @State var showSelectCurrency=false
+
     
     
-   @State var leftAmount = ""
+   @State var leftAmount =  ""
    @State var rightAmount = ""
     
    // special type of property
    @FocusState var leftTyping
    @FocusState var rightTyping
-    
-    
+
+  
    @State var leftCurrency : Currency = .silverPiece
    @State var rightCurrency : Currency = .goldPiece
     
+   //User Default Keys
+
     
-    
-    
+
+
     var body: some View {
+       
         ZStack{
             // Background Image
             Image(.background)
@@ -169,9 +173,25 @@ struct ContentView: View {
                 
             }
         }
-        
+        .onTapGesture {
+                    // Dismiss the keyboard when tapping outside the text fields
+                    UIApplication.shared.endEditing()
+                }
+       
+
     }
 }
+extension UIApplication {
+    func endEditing() {
+        sendAction(
+            #selector(UIResponder.resignFirstResponder),
+            to: nil,
+            from: nil,
+            for: nil
+        )
+    }
+}
+
 
 #Preview {
     ContentView()
