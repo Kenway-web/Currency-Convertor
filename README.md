@@ -22,8 +22,7 @@ This Currency Converter app is designed to facilitate easy conversion between va
 
 Here are some screenshots from the app:
 
-1. ![Image 1](https://github.com/Kenway-web/Currency-Convertor/blob/main/CurrencyConvertor/Assets.xcassets/Screenshot%202024-01-07%20at%2012.07.36%20AM.imageset/Screenshot%202024-01-07%20at%2012.07.36%20AM.png){:height="200px" width="350px"}
-2. ![Image 2](https://github.com/Kenway-web/Currency-Convertor/blob/main/CurrencyConvertor/Assets.xcassets/Screenshot%202024-01-07%20at%2012.07.44%20AM%201.imageset/Screenshot%202024-01-07%20at%2012.07.44%20AM.png){:height="200px" width="350px"}
-3. ![Image 3](https://github.com/Kenway-web/Currency-Convertor/blob/main/CurrencyConvertor/Assets.xcassets/Screenshot%202024-01-07%20at%2012.07.51%20AM.imageset/Screenshot%202024-01-07%20at%2012.07.51%20AM.png){:height="200px" width="350px"}
-4. ![Image 4](https://github.com/Kenway-web/Currency-Convertor/blob/main/CurrencyConvertor/Assets.xcassets/Screenshot%202024-01-07%20at%2012.07.58%20AM.imageset/Screenshot%202024-01-07%20at%2012.07.58%20AM.png){:height="200px" width="350px"}
+
+<img src="https://github.com/Kenway-web/Currency-Convertor/blob/main/CurrencyConvertor/Assets.xcassets/Screenshot%202024-01-07%20at%2012.07.36%20AM.imageset/Screenshot%202024-01-07%20at%2012.07.36%20AM.png" width="200"/>  <img src="https://github.com/Kenway-web/Currency-Convertor/blob/main/CurrencyConvertor/Assets.xcassets/Screenshot%202024-01-07%20at%2012.07.44%20AM%201.imageset/Screenshot%202024-01-07%20at%2012.07.44%20AM.png" width ="200"/>   <img src="https://github.com/Kenway-web/Currency-Convertor/blob/main/CurrencyConvertor/Assets.xcassets/Screenshot%202024-01-07%20at%2012.07.51%20AM.imageset/Screenshot%202024-01-07%20at%2012.07.51%20AM.png" width="200" /> <img src ="https://github.com/Kenway-web/Currency-Convertor/blob/main/CurrencyConvertor/Assets.xcassets/Screenshot%202024-01-07%20at%2012.07.58%20AM.imageset/Screenshot%202024-01-07%20at%2012.07.58%20AM.png"  width ="200"/>
+
 
